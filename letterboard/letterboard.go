@@ -25,7 +25,7 @@ func position(board Board, r rune) (int, Direction) {
 }
 
 func SolveLetterboard(board Board, word string) Moves {
-	moves := []Move{}
+	var moves []Move
 
 	var pos int
 	var direction Direction
